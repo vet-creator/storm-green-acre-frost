@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #04060c;
+  overflow: hidden;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+.citadel-host {
+  position: fixed;
+  inset: 0;
+  background: #04060c;
+}
+
+.citadel-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #04060c;
+}
